@@ -30,6 +30,7 @@ public class MakeMytrip {
 		for(int i=1;i<options.size();i++) {
 			String value = options.get(i).getText();
 			System.out.println(value);
+			System.out.print("Niyaz Ahmad");
 //			if(value.getText().equalsIgnoreCase("Kanpur, India")) {
 //				value.click();
 //			   
