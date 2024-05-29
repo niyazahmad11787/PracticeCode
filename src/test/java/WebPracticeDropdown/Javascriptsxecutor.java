@@ -38,6 +38,7 @@ public class Javascriptsxecutor {
 		
 		js.executeScript("scroll(0,1000)");//To scroll down the page.
 		
+		js.executeScript("arguments[0].scrollIntoView(true);", clickBtn);//To scroll down for specific webelement
 		
 		
 		
