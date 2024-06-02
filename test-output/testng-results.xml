@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-02T17:49:51 IST" name="Suite" finished-at="2024-06-02T17:56:11 IST" duration-ms="380965">
+    <groups>
+    </groups>
+    <test started-at="2024-06-02T17:49:51 IST" name="ChromeTest" finished-at="2024-06-02T17:52:28 IST" duration-ms="157170">
+      <class name="WebPracticeDropdown.amzonDropdown">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:WebPracticeDropdown.amzonDropdown@449a4f23]" started-at="2024-06-02T17:49:51 IST" name="setUp" finished-at="2024-06-02T17:50:50 IST" duration-ms="59947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMethod()[pri:0, instance:WebPracticeDropdown.amzonDropdown@449a4f23]" started-at="2024-06-02T17:50:50 IST" name="testMethod" finished-at="2024-06-02T17:50:51 IST" duration-ms="681" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: chrome=125.0.6422.76)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-35-generic', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b4a9f20305043845b45ff9c3b1809bef, getElementText {id=f.6B5EAA35F30DF8B5CF31331ED155E17C.d.204CCF76107B6DA918CF4A52EC5E2B39.e.90}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.76, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43703}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:43703/devtoo..., se:cdpVersion: 125.0.6422.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on linux (b4a9f20305043845b45ff9c3b1809bef)] -> xpath: //div[@class='s-suggestion-container']//div]
+Session ID: b4a9f20305043845b45ff9c3b1809bef]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=125.0.6422.76)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-35-generic', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b4a9f20305043845b45ff9c3b1809bef, getElementText {id=f.6B5EAA35F30DF8B5CF31331ED155E17C.d.204CCF76107B6DA918CF4A52EC5E2B39.e.90}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.76, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43703}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:43703/devtoo..., se:cdpVersion: 125.0.6422.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on linux (b4a9f20305043845b45ff9c3b1809bef)] -> xpath: //div[@class='s-suggestion-container']//div]
+Session ID: b4a9f20305043845b45ff9c3b1809bef
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+at WebPracticeDropdown.amzonDropdown.testMethod(amzonDropdown.java:69)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:WebPracticeDropdown.amzonDropdown@449a4f23]" started-at="2024-06-02T17:50:51 IST" name="setUp" finished-at="2024-06-02T17:52:27 IST" duration-ms="95975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMethod()[pri:0, instance:WebPracticeDropdown.amzonDropdown@449a4f23]" started-at="2024-06-02T17:52:27 IST" name="testMethod" finished-at="2024-06-02T17:52:28 IST" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- WebPracticeDropdown.amzonDropdown -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-06-02T17:52:28 IST" name="edgebrowser" finished-at="2024-06-02T17:56:11 IST" duration-ms="223781">
+      <class name="WebPracticeDropdown.amzonDropdown">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:WebPracticeDropdown.amzonDropdown@303cf2ba]" started-at="2024-06-02T17:52:28 IST" name="setUp" finished-at="2024-06-02T17:55:21 IST" duration-ms="173210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMethod()[pri:0, instance:WebPracticeDropdown.amzonDropdown@303cf2ba]" started-at="2024-06-02T17:55:21 IST" name="testMethod" finished-at="2024-06-02T17:55:22 IST" duration-ms="984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:WebPracticeDropdown.amzonDropdown@303cf2ba]" started-at="2024-06-02T17:55:22 IST" name="setUp" finished-at="2024-06-02T17:56:11 IST" duration-ms="49179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMethod()[pri:0, instance:WebPracticeDropdown.amzonDropdown@303cf2ba]" started-at="2024-06-02T17:56:11 IST" name="testMethod" finished-at="2024-06-02T17:56:11 IST" duration-ms="400" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=125.0.2535.51)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-35-generic', java.version: '17.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b87ac63ae9f8f6db913d3cfba96d28f3, getElementText {id=f.6879DC42416BE0CE48993A2B0297AA3F.d.3F3DD5EA92AEDDE0AA92A659A48E0E74.e.78}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:38857}, msedge: {msedgedriverVersion: 125.0.2535.79 (7e3dd970e483..., userDataDir: /tmp/.com.microsoft.Edge.jR...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:38857/devtoo..., se:cdpVersion: 125.0.2535.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on linux (b87ac63ae9f8f6db913d3cfba96d28f3)] -> xpath: //div[@class='s-suggestion-container']//div]
+Session ID: b87ac63ae9f8f6db913d3cfba96d28f3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=125.0.2535.51)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-35-generic', java.version: '17.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b87ac63ae9f8f6db913d3cfba96d28f3, getElementText {id=f.6879DC42416BE0CE48993A2B0297AA3F.d.3F3DD5EA92AEDDE0AA92A659A48E0E74.e.78}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:38857}, msedge: {msedgedriverVersion: 125.0.2535.79 (7e3dd970e483..., userDataDir: /tmp/.com.microsoft.Edge.jR...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:38857/devtoo..., se:cdpVersion: 125.0.2535.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on linux (b87ac63ae9f8f6db913d3cfba96d28f3)] -> xpath: //div[@class='s-suggestion-container']//div]
+Session ID: b87ac63ae9f8f6db913d3cfba96d28f3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+at WebPracticeDropdown.amzonDropdown.testMethod(amzonDropdown.java:69)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- WebPracticeDropdown.amzonDropdown -->
+    </test> <!-- edgebrowser -->
+  </suite> <!-- Suite -->
+</testng-results>
