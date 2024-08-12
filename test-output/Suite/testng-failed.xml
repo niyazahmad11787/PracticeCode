@@ -12,15 +12,4 @@
       </class> <!-- WebPracticeDropdown.amzonDropdown -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
-  <test thread-count="5" name="edgebrowser(failed)">
-    <parameter name="browser" value="edge"/>
-    <classes>
-      <class name="WebPracticeDropdown.amzonDropdown">
-        <methods>
-          <include name="testMethod"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- WebPracticeDropdown.amzonDropdown -->
-    </classes>
-  </test> <!-- edgebrowser(failed) -->
 </suite> <!-- Failed suite [Suite] -->
